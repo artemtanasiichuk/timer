@@ -1,4 +1,4 @@
-// ЗАВДАННЯ 1: Годинний таймер
+// 1 //
 let remainingMinutes = 60;
 let timer1Interval = null;
 let halfTimeMessageShown = false;
@@ -37,7 +37,7 @@ function resetTimer1() {
     document.getElementById('message1').textContent = '';
 }
 
-// ЗАВДАННЯ 2: 30-секундний таймер
+// 2 //
 let remainingMs = 30000;
 let timer2Interval = null;
 let animationStarted = false;
